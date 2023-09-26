@@ -1,0 +1,136 @@
+body{
+    background-color: #ffffff;
+    color:#72a329;
+}
+
+a{
+    text-decoration: none;
+    color:#72a329;
+}
+
+/* --------------------------------- */
+
+.site{
+    display: flex;
+    justify-content: center;
+}
+
+.site_shell{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.site_div{
+    display: flex;
+    flex-direction: column;
+    min-height: 1440px;
+}
+
+.header_sel{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px 0px;
+    background-color:#242222;
+}
+
+.logo{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_left{
+    display: flex;
+    align-items: center;
+}
+
+.logo_img{
+    border-radius: 100px;
+}
+
+.div_logo_text{
+    padding-left: 18px;
+    font-size: 24px;
+}
+
+.logo_text_{
+    border-bottom: 2px solid #72a329;
+}
+
+.div_menu{
+    min-width: 460px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    list-style-type: none;
+    padding-bottom: 100px;
+}
+
+.submenu_section{
+    border-right: 5px solid #a32929;
+}
+
+.submenu_li{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-left: -50px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.menu_section_one :hover .submenu_section{
+    position: absolute;
+    display: block;
+    font-size: 25px;
+}
+
+.menu_section_one .submenu_section{
+    display: none;
+}
+
+/* --------------------------------- */
+
+.body_sel{
+    flex: 1 1 auto;
+}
+
+.body_sel{
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:#242222;
+    border-radius: 50px 0px;
+}
+
+/* --------------------------------- */
+
+.footer_sel{
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px 0px;
+    background-color:#242222;
+}
+
+.footer_name{
+    font-size: 12px;
+}
+
+/* --------------------------------- */
+
+.alt_text{
+    display: none;
+}
+@media(max-width: 627px){
+    .alt_text{
+        display: block;
+        padding: 20px;
+    }
+    .text{
+        display: none;
+    }
+}
