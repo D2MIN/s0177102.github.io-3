@@ -132,37 +132,6 @@ h3,h4,h5{
     padding-right: 20px;
 }
 
-@media(max-width: 1200) {
-    .menu{
-        & .menu_section{
-            margin-right: 60px;
-        }
-    }
-}
-
-@media(max-width:1024px){
-    .logo_right{
-        padding-top: 80px;
-    }
-
-    .div_menu{
-        & .menu{
-            margin-right: 0px;
-            display: flex;
-            flex-wrap: wrap;
-            
-            & li{
-                margin-right: 60px;
-            }
-            
-            & .menu_section a{
-                font-size: 25px;
-            }
-        }
-    }
-
-}
-
 .map_img_2{
     display: none;
 }
@@ -238,6 +207,37 @@ form{
 
 // MEDIA
 
+@media(max-width: 1200) {
+    .menu{
+        & .menu_section{
+            margin-right: 60px;
+        }
+    }
+}
+
+@media(max-width:1024px){
+    .logo_right{
+        padding-top: 80px;
+    }
+
+    .div_menu{
+        & .menu{
+            margin-right: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            
+            & li{
+                margin-right: 60px;
+            }
+            
+            & .menu_section a{
+                font-size: 25px;
+            }
+        }
+    }
+
+}
+
 @media(max-width: 995px){
     .logo{
         display: inline;
@@ -254,8 +254,22 @@ form{
 }
 
 @media(max-width:769px){
-    .div_menu{
+    .body_sel{
+        display: flex;
+        flex-direction: column;
+        .section_links{
+            order: 0;
+        }
+        .table_global_section{
+            order: 2;
+            padding-bottom: 20px;
+        }
+        .form{
+            order: 1;
+        }
+    }
 
+    .div_menu{
         & .menu li{
             margin-right: 50px;
         }

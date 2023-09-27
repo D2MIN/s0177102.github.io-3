@@ -114,27 +114,6 @@ h3, h4, h5 {
   padding-right: 20px;
 }
 
-@media (max-width: 1200) {
-  .menu .menu_section {
-    margin-right: 60px;
-  }
-}
-@media (max-width: 1024px) {
-  .logo_right {
-    padding-top: 80px;
-  }
-  .div_menu .menu {
-    margin-right: 0px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .div_menu .menu li {
-    margin-right: 60px;
-  }
-  .div_menu .menu .menu_section a {
-    font-size: 25px;
-  }
-}
 .map_img_2 {
   display: none;
 }
@@ -205,6 +184,27 @@ form .textarea {
   color: rgb(146, 58, 0);
 }
 
+@media (max-width: 1200) {
+  .menu .menu_section {
+    margin-right: 60px;
+  }
+}
+@media (max-width: 1024px) {
+  .logo_right {
+    padding-top: 80px;
+  }
+  .div_menu .menu {
+    margin-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .div_menu .menu li {
+    margin-right: 60px;
+  }
+  .div_menu .menu .menu_section a {
+    font-size: 25px;
+  }
+}
 @media (max-width: 995px) {
   .logo {
     display: inline;
@@ -219,6 +219,20 @@ form .textarea {
   }
 }
 @media (max-width: 769px) {
+  .body_sel {
+    display: flex;
+    flex-direction: column;
+  }
+  .body_sel .section_links {
+    order: 0;
+  }
+  .body_sel .table_global_section {
+    order: 2;
+    padding-bottom: 20px;
+  }
+  .body_sel .form {
+    order: 1;
+  }
   .div_menu .menu li {
     margin-right: 50px;
   }
