@@ -245,6 +245,9 @@ form .textarea {
   }
 }
 @media (max-width: 562px) {
+  body {
+    padding: 0px;
+  }
   .logo_right {
     padding-top: 0px;
   }
